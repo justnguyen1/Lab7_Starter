@@ -25,6 +25,12 @@ const router = new Router(function () {
    * This will only be two single lines
    * If you did this right, you should see just 1 recipe card rendered to the screen
    */
+
+  const add = document.querySelector(".section--recipe-cards shown"); //add "shown"
+  const remove = document.querySelector(".section--recipe-expand"); //remove "shown"
+
+  add.classList.add("shown");
+  remove.classList.remove("shown");
 });
 
 window.addEventListener('DOMContentLoaded', init);
