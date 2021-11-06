@@ -11,7 +11,6 @@ self.addEventListener('install', function (event) {
    */
   let urlsToCache = [
     '/',
-    'assets/images/icons',
     'assets/styles/main.css',
     'assets/scripts/main.js'
   ];
