@@ -74,7 +74,7 @@ export class Router {
         currentHash = `#${page}`;
       }
       if (!statePopped && window.location.hash !== currentHash) {
-        history.pushState({'page' : page}, currentHash, document.location.href + currentHash);
+        history.pushState({'page' : page}, currentHash, window.location.href + currentHash);
       }
       const storedFunction = this[page];
       storedFunction(page);
