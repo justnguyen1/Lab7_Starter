@@ -194,7 +194,7 @@ function bindEscKey() {
    * if the escape key is pressed, use your router to navigate() to the 'home'
    * page. This will let us go back to the home page from the detailed page.
    */
-  document.addEventListener('keydown', function(e) {
+  window.addEventListener('keydown', function(e) {
     if (e.key === 'Escape') {
       router.navigate('home');
     }
