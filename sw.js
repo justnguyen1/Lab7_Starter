@@ -9,11 +9,6 @@ self.addEventListener('install', function (event) {
    * TODO - Part 2 Step 2
    * Create a function as outlined above
    */
-  // const urlsToCache = [
-  //   '/',
-  //   'assets/styles/main.css',
-  //   'assets/scripts/main.js'
-  // ];
 
   const urlsToCache = [
     'https://introweb.tech/assets/json/ghostCookies.json',
