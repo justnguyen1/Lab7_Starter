@@ -79,7 +79,7 @@ export class Router {
       const storedFunction = this[page];
       storedFunction(page);
     } else {
-      console.log("Error occurred");
+      console.error("Error occurred");
     }
   }
 }
